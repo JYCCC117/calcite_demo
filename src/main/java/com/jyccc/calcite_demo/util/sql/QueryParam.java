@@ -1,10 +1,8 @@
-package com.anjiplus.template.gaea.business.util.sql;
+package com.jyccc.calcite_demo.util.sql;
 
-import lombok.Data;
 
 import java.util.List;
 
-@Data
 public class QueryParam {
     /**
      * 字段名
@@ -21,4 +19,27 @@ public class QueryParam {
      */
     private List<String> dataList;
 
+    public String getParamName() {
+        return paramName;
+    }
+
+    public void setParamName(String paramName) {
+        this.paramName = paramName;
+    }
+
+    public String getAliasName() {
+        return aliasName;
+    }
+
+    public void setAliasName(String aliasName) {
+        this.aliasName = aliasName;
+    }
+
+    public List<String> getDataList() {
+        return dataList;
+    }
+
+    public void setDataList(List<String> dataList) {
+        this.dataList = dataList;
+    }
 }

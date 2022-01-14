@@ -1,10 +1,10 @@
-package com.anjiplus.template.gaea.business.util;
+package com.jyccc.calcite_demo.util;
 
 import java.security.SecureRandom;
 import java.util.UUID;
 
 /**
- * Created by raodeming on 2021/8/19.
+ *
  */
 public class UuidUtil {
 

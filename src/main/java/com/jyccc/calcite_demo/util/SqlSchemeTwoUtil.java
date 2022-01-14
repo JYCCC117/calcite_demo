@@ -1,12 +1,12 @@
-package com.anjiplus.template.gaea.business.util;
+package com.jyccc.calcite_demo.util;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
-import com.anjiplus.template.gaea.business.util.calcite.SqlCharStringLiteral2;
-import com.anjiplus.template.gaea.business.util.sql.QueryData;
-import com.anjiplus.template.gaea.business.util.sql.QueryParam;
-import com.anjiplus.template.gaea.business.util.sql.SqlReturn;
+import com.jyccc.calcite_demo.util.calcite.SqlCharStringLiteral2;
+import com.jyccc.calcite_demo.util.sql.QueryData;
+import com.jyccc.calcite_demo.util.sql.QueryParam;
+import com.jyccc.calcite_demo.util.sql.SqlReturn;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.calcite.config.Lex;
 import org.apache.calcite.sql.*;

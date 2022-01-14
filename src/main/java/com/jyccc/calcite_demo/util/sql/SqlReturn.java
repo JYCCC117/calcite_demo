@@ -1,10 +1,8 @@
-package com.anjiplus.template.gaea.business.util.sql;
+package com.jyccc.calcite_demo.util.sql;
 
-import lombok.Data;
 
 import java.util.List;
 
-@Data
 public class SqlReturn {
     /**
      * sql语句
@@ -16,4 +14,19 @@ public class SqlReturn {
      */
     private List<String> paramList;
 
+    public String getSql() {
+        return sql;
+    }
+
+    public void setSql(String sql) {
+        this.sql = sql;
+    }
+
+    public List<String> getParamList() {
+        return paramList;
+    }
+
+    public void setParamList(List<String> paramList) {
+        this.paramList = paramList;
+    }
 }

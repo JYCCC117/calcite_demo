@@ -1,10 +1,7 @@
-package com.anjiplus.template.gaea.business.util.sql;
-
-import lombok.Data;
+package com.jyccc.calcite_demo.util.sql;
 
 import java.util.List;
 
-@Data
 public class QueryData {
 
     /**
@@ -13,4 +10,20 @@ public class QueryData {
     private String tableName;
 
     private List<QueryParam> queryParams;
+
+    public String getTableName() {
+        return tableName;
+    }
+
+    public void setTableName(String tableName) {
+        this.tableName = tableName;
+    }
+
+    public List<QueryParam> getQueryParams() {
+        return queryParams;
+    }
+
+    public void setQueryParams(List<QueryParam> queryParams) {
+        this.queryParams = queryParams;
+    }
 }
